@@ -1,0 +1,73 @@
+body{
+}
+nav div {
+  max-width: 1200px; 
+  margin: 0 auto;
+}
+ul {
+  display: flex; /* Use flexbox for horizontal alignment */
+  justify-content: space-around; /* Space items evenly */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+.components {
+  margin: 0 1rem; /* Margin between links */
+}
+
+
+.components a:hover {
+  color: #ff6347; /* Change color on hover */
+}
+
+/* NewContact.css */
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+h3 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="image"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input[type="image"] {
+  cursor: pointer;
+  height: 100px; /* Set a fixed height for the image input */
+  width: auto; /* Maintain aspect ratio */
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
