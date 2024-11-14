@@ -1,102 +1,78 @@
 {
-    "contacts":[
-  {
-    "id":1,
-    "name":"Dwayne Johnson",
-    "lastseen":"2 minutes ago",
-    "image":""
-  },
-  
-  {
-   "id":2,
-   "name":"Erick Tembo",
-   "lastseen":"10 minutes ago",
-   "image":""
-  },
-  
-  {
-   "id":3,
-   "name":"Charlie Puth",
-   "lastseen":"30 minutes ago",
-   "image":""
-  },
-  
-  {
-  "id":4,
-  "name":"Derek Hale",
-  "lastseen":"5 minutes ago",
-  "image":""
-  },
-  
-  {
-  "id":5,
-  "name":"Harry Styles",
-  "lastseen":"1 hour ago",
-  "image":""
-  },
-  
-  {
-  "id":6,
-  "name":"Lydia Green",
-  "lastseen":"Yesterday",
-  "image":""
-  },
-  
-  {
-  "id":7,
-  "name":"George Harris",
-  "lastseen":"3 hours ago",
-  "image":""
-  },
-  
-  {
-   "id":8,
-   "name":"Hannah Wilson",
-   "lastseen":"Online now",
-   "image":"" 
-  },
-  
-  {
-   "id":9,
-   "name":"Ivan Martinez",
-   "lastseen":"15 minutes ago",
-   "image":""
-  },
-  
-  {
-    "id":10,
-    "name":"Jenna Taylor",
-    "lastseen":"2 hours ago",
-    "image":""
-  },
-  
-  {
-    "id":11,
-    "name":"Kevin Anderson",
-    "lastseen":"Yesterday",
-    "image":""
-  },
-  
-  {
-    "id":12,
-    "name":"Laura Scott",
-    "lastseen":"3 days ago",
-    "image":""
-  }
-    ],
-  
-    "messages":[
-      {
-        "id":1,
-        "contactId":1,
-        "text":"Hey, how are you?",
-        "sender":"Dwayne Johnson",
-        "timestamp":"2024-11-11T10:30:00"
-      },
-    
-      {}
-    ]
-  }
-    
-      
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Dwayne Johnson",
+      "lastseen": "Online now",
+      "image": ""
+    },
+    {
+      "id": 2,
+      "name": "Erick Tembo",
+      "lastseen": "Online now",
+      "image": ""
+    },
+    {
+      "id": 3,
+      "name": "Charlie Puth",
+      "lastseen": "30 minutes ago",
+      "image": ""
+    },
+    {
+      "id": 4,
+      "name": "Derek Hale",
+      "lastseen": "5 minutes ago",
+      "image": ""
+    },
+    {
+      "id": 5,
+      "name": "Harry Styles",
+      "lastseen": "1 hour ago",
+      "image": ""
+    },
+    {
+      "id": 6,
+      "name": "Lydia Green",
+      "lastseen": "Yesterday",
+      "image": ""
+    },
+    {
+      "id": 7,
+      "name": "George Harris",
+      "lastseen": "3 hours ago",
+      "image": ""
+    },
+    {
+      "id": 8,
+      "name": "Hannah Wilson",
+      "lastseen": "Online now",
+      "image": ""
+    },
+    {
+      "id": 9,
+      "name": "Ivan Martinez",
+      "lastseen": "15 minutes ago",
+      "image": ""
+    },
+    {
+      "id": 10,
+      "name": "Jenna Taylor",
+      "lastseen": "2 hours ago",
+      "image": ""
+    },
+    {
+      "id": 11,
+      "name": "Kevin Anderson",
+      "lastseen": "Yesterday",
+      "image": ""
+    },
+    {
+      "id": 12,
+      "name": "Laura Scott",
+      "lastseen": "3 days ago",
+      "image": ""
+    }
+  ]
+}
+
   
