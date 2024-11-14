@@ -5,34 +5,22 @@ import Navbar from './components/Navbar';
 import "./App.css";
 
 function App() {
-
   return (
-
-        <Router>
-
-              <div>
-
-              <h3>Purple Chat-Space</h3>
-              
-
-             {/* Render the Navbar */}
+    <Router>
+      <div>
+        <h3>Purple Chat-Space</h3>
+        
+        {/* Render the Navbar /}
         <Navbar />
         
-        {/* Define the Routes */}
+        {/ Define the Routes */}
         <Routes>
-
           <Route path='/' element={<Home />} />
-          <Route path='/profile' element={<UserProfile />} /> 
-
-            </Routes>
-
-        </div>
-
+          <Route path='/profile' element={<User Profile />} /> 
+        </Routes>
+      </div>
     </Router>
   );
 }
 
 export default App;
-
-
-
