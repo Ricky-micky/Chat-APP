@@ -3,6 +3,8 @@ import Home from "./PagesInMain/Home";
 import UserProfile from "./PagesInMain/Profile"; 
 import Navbar from './components/Navbar';
 import "./App.css";
+import SignUpForm from './PagesInMain/signupform';
+import NewContact from './PagesInMain/NewContact'; // Ensure this component exists
 
 function App() {
   return (
@@ -10,13 +12,15 @@ function App() {
       <div>
         <h3>Purple Chat-Space</h3>
         
-        {/* Render the Navbar /}
+        {/* Render the Navbar */}
         <Navbar />
         
-        {/ Define the Routes */}
+        {/* Define the Routes */}
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/profile' element={<User Profile />} /> 
+          <Route path="/" element={<SignUpForm />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/new-contact" element={<NewContact />} />
+          <Route path="/profile" element={<UserProfile />} />
         </Routes>
       </div>
     </Router>
