@@ -1,41 +1,22 @@
-body{
+/* General Styles */
+body {
+background-repeat: no-repeat;
+background-size: cover;
 }
-nav div {
-  max-width: 1200px; 
-  margin: 0 auto;
-}
+
 ul {
-  display: flex; /* Use flexbox for horizontal alignment */
-  justify-content: space-around; /* Space items evenly */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margin */
-}
-
-.components {
-  margin: 0 1rem; /* Margin between links */
-}
-
-
-.components a:hover {
-  color: #ff6347; /* Change color on hover */
-}
-
-/* NewContact.css */
-
-.container {
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  background-color: #f9f9f9;
+  display: flex; /*flexbox for horizontal alignment */
+  justify-content: space-around; /* Space items propotionally */
+  padding: 0;
+  margin: 0; 
 }
 
 h3 {
   text-align: center;
   color: #333;
 }
+
+/* Form Styles */
 
 form {
   display: flex;
@@ -44,30 +25,46 @@ form {
 
 input[type="number"],
 input[type="text"],
-input[type="image"] {
+input[type="image"],
+input,
+textarea {
   padding: 10px;
-  margin: 10px 0;
+  margin: 10px 0; 
   border: 1px solid #ccc;
   border-radius: 4px;
-  font-size: 16px;
+  font-size: 16px; 
+  width: 90%; 
 }
 
 input[type="image"] {
   cursor: pointer;
-  height: 100px; /* Set a fixed height for the image input */
-  width: auto; /* Maintain aspect ratio */
+  height: 100px; 
+  width: auto; 
 }
 
+/* Button Styles */
 button {
-  padding: 10px;
-  background-color: #007bff;
-  color: white;
+  padding: 6px 20px; /* Consistent padding for buttons */
+  color: rgb(0, 0, 0);
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 12px; 
 }
 
-button:hover {
-  background-color: #0056b3;
+button.primary {
+  background-color: #007bff; /* Primary button color */
 }
+
+button.primary:hover {
+  background-color: #000000; /* Hover effect for primary button */
+}
+
+button.secondary {
+  background-color: #4CAF50; /* Secondary button color */
+}
+
+button.secondary:hover {
+  background-color: #45a049; /* Hover effect for secondary button */
+}
+

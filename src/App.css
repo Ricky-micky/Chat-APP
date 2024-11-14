@@ -1,0 +1,28 @@
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-image: url(file:///home/erick/Downloads/ppr-2%20background);
+    background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
