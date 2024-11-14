@@ -1,73 +1,119 @@
-body{
-}
-nav div {
-  max-width: 1200px; 
-  margin: 0 auto;
-}
-ul {
-  display: flex; /* Use flexbox for horizontal alignment */
-  justify-content: space-around; /* Space items evenly */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margin */
+/* Layout Styles */
+.contact-list,
+.contacts-container {
+  display: flex;
 }
 
-.components {
-  margin: 0 1rem; /* Margin between links */
+.contacts {
+  width: 300px; /* Width of the contact list */
+  border-right: 1px solid #ccc; /* Divider */
 }
 
-
-.components a:hover {
-  color: #ff6347; /* Change color on hover */
+.contact-card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
 }
 
-/* NewContact.css */
-
-.container {
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  background-color: #f9f9f9;
+.contact-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 
-h3 {
-  text-align: center;
-  color: #333;
-}
-
-form {
+.contact-details {
   display: flex;
   flex-direction: column;
 }
 
-input[type="number"],
-input[type="text"],
-input[type="image"] {
+.chat-box {
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 10px;
-  margin: 10px 0;
+  margin-left: auto; /* Space between contacts and chat */
+  border: 1px solid #fcf8f8;
+  border-radius: 8px;
+  height: auto; /* Adjust height as needed */
+  display: flex;
+  flex-direction: column;
+}
+
+.messages {
+  flex-grow: 1; /* Allow messages to take available space */
+  overflow-y: auto; /* Scroll if messages overflow */
+}
+
+/* User Profile Styles */
+.user-profile {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
   border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
 }
 
-input[type="image"] {
-  cursor: pointer;
-  height: 100px; /* Set a fixed height for the image input */
-  width: auto; /* Maintain aspect ratio */
+.form-group {
+  margin-bottom: 15px;
 }
 
-button {
-  padding: 10px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
+label {
+  display: block;
+  margin-bottom: 5px;
 }
 
-button:hover {
-  background-color: #0056b3;
+.feedback-message {
+  margin-top: 10px;
+  color: #4CAF50; /* Green color for success messages */
 }
+
+.searchBar{
+color: white;
+
+}
+
+.inputSearch{
+  color: rgb(42, 42, 95);
+}
+
+/* user profile css */
+
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 400px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.user-profile:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.user-profile img {
+  border-radius: 50%; /* Makes the image circular */
+  height: 60vh;
+  margin-bottom: 15px;
+  border: 2px solid #4CAF50; /* Green border around the image */
+}
+
+.user-profile h2 {
+  margin: 0 0 10px 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.user-profile p {
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+}
+
